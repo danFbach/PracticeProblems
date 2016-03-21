@@ -8,5 +8,10 @@ namespace Practice
 {
     class Problem2
     {
+        public void valueOfPi()
+        {
+            double Pi = 3.14;
+            Console.WriteLine("the value of pi is {0}", Pi);
+        }
     }
 }
