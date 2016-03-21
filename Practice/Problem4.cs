@@ -27,7 +27,7 @@ namespace Practice
 
             int listLength = LongList.Count;
 
-            LongList.Insert(0, LongList[listLength-1]);
+            LongList.Insert(0, LongList[8]);
             LongList.RemoveAt(listLength);
 
             LongList.Insert(0, LongList[listLength-1]);
@@ -36,9 +36,9 @@ namespace Practice
             for(int i = 0;i < listLength;i++)
             {
                 LongList[i] += 5;
-                Console.WriteLine(LongList[i]);
+                Console.Write(LongList[i]+" ");
+
             }
-            ;
         }
 
 
