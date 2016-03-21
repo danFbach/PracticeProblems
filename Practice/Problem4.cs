@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Practice
 {
-    class Problem4
+    public class Problem4
     {
         public List<int> LongList;
 
@@ -27,17 +27,18 @@ namespace Practice
 
             int listLength = LongList.Count;
 
-            LongList.Insert(0, listLength);
+            LongList.Insert(0, LongList[listLength-1]);
             LongList.RemoveAt(listLength);
 
-            LongList.Insert(0, listLength);
+            LongList.Insert(0, LongList[listLength-1]);
             LongList.RemoveAt(listLength);
 
             for(int i = 0;i < listLength;i++)
             {
                 LongList[i] += 5;
+                Console.WriteLine(LongList[i]);
             }
-
+            ;
         }
 
 

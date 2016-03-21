@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Practice
 {
-    class Problem2
+    public class Problem2
     {
         public void valueOfPi()
         {

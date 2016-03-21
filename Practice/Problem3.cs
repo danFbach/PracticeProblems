@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Practice
 {
-    class Problem3
+    public class Problem3
     {
         public List<string> instruction;
 
