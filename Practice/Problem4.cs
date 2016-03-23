@@ -10,7 +10,7 @@ namespace Practice
     {
         public List<int> LongList;
 
-        
+
 
         public void RotateToRight()
         {
@@ -30,17 +30,14 @@ namespace Practice
             LongList.Insert(0, LongList[8]);
             LongList.RemoveAt(listLength);
 
-            LongList.Insert(0, LongList[listLength-1]);
+            LongList.Insert(0, LongList[listLength - 1]);
             LongList.RemoveAt(listLength);
 
-            for(int i = 0;i < listLength;i++)
+            for (int i = 0; i < listLength; i++)
             {
                 LongList[i] += 5;
-                Console.Write(LongList[i]+" ");
-
+                Console.Write(LongList[i] + " ");
             }
         }
-
-
     }
 }

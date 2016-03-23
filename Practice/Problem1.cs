@@ -8,10 +8,10 @@ namespace Practice
 {
     public class Problem1
     {
-        public int countTotal;                          
+        public int countTotal;
 
         public int stringCount(string InputString)
-        {                                   
+        {
 
             foreach (char c in InputString)
             {
@@ -32,6 +32,6 @@ namespace Practice
         //    return countTotal;
         //}
 
-          
+
     }
 }

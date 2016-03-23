@@ -33,10 +33,10 @@ namespace Practice
         public void comboMove()
         {
             int comboLength = instruction.Count;
-            for(int i = 0;i < comboLength; i++)
-                {                            
-                    Console.WriteLine(instruction[i]);                    
-                }
+            for (int i = 0; i < comboLength; i++)
+            {
+                Console.WriteLine(instruction[i]);
+            }
         }
     }
-}       
+}

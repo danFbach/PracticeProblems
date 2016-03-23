@@ -43,8 +43,8 @@ namespace Practice
                *              *
              *                  *
            *                      * ");
-               
-               
+
+
 
         }
         public void armDown()
@@ -74,6 +74,6 @@ namespace Practice
 
 
 
-        
+
     }
- }
+}
